@@ -8,20 +8,21 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #2e2e2e;
+            background-color: #000;
+            color: #fff;
         }
         .navbar {
             display: flex;
             align-items: center;
-            background-color: #2e2e2e;
+            justify-content: space-between;
+            background-color: #000;
             padding: 10px 20px;
-            color: #d4c67a;
         }
         .navbar img {
             height: 40px;
         }
         .navbar a {
-            color: #d4c67a;
+            color: #fff;
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
@@ -32,29 +33,78 @@
             display: block;
             width: 0;
             height: 2px;
-            background: #d4c67a;
+            background: #fefe01;
             transition: width .3s;
             position: absolute;
             bottom: -5px;
             left: 0;
         }
-        .navbar a:hover::after {
+        .navbar a:hover::after, .navbar a.active::after {
             width: 100%;
         }
-        .navbar .active {
-            border-bottom: 2px solid #d4c67a;
+        .navbar .login, .navbar .register {
+            background-color: #fefe01;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #000;
+        }
+        .navbar .register {
+            margin-left: 10px;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 100px;
+        }
+        .main-content .text {
+            max-width: 50%;
+        }
+        .main-content h1 {
+            color: #fefe01;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            margin-bottom: 20px;
+        }
+        .main-content .btn {
+            background-color: #fefe01;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .main-content img {
+            max-width: 40%;
         }
     </style>
 </head>
 <body>
     <div class="navbar">
         <img src="logo.png" alt="Servitec">
-        <a href="#" class="active">HOME</a>
-        <a href="#">SHOP</a>
-        <a href="#">COLLECTIBLE</a>
-        <a href="#">PUBLISHER</a>
-        <a href="#">NEWS</a>
-        <a href="#">PROMO</a>
+        <div>
+            <a href="#" class="active">INICIO</a>
+            <a href="#">SERVICIOS</a>
+            <a href="#">PLANES</a>
+            <a href="#">TIENDA</a>
+            <a href="#">CONTACTO</a>
+            <a href="#">SOMOS</a>
+            <a href="#">BLOG</a>
+        </div>
+        <div>
+            <a href="#" class="login">INICIAR SESIÓN</a>
+            <a href="#" class="register">REGISTRO</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="text">
+            <h2>A TU ALCANCE</h2>
+            <h1>SERVICIO TECNICO PARA PC.</h1>
+            <p>Tenemos Planes de Mantención Trimestrales, Semestrales y Anuales para todos tus equipos. Trabajamos en todo Chile.</p>
+            <a href="#" class="btn">DESCÚBRELO</a>
+        </div>
+        <img src="computer.png" alt="Servicio Técnico">
     </div>
 </body>
 </html>
