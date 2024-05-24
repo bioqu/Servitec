@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelHeart</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2e2e2e;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #2e2e2e;
+            padding: 10px 20px;
+            color: #d4c67a;
+        }
+        .navbar img {
+            height: 40px;
+        }
+        .navbar a {
+            color: #d4c67a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            position: relative;
+        }
+        .navbar a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #d4c67a;
+            transition: width .3s;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .navbar a:hover::after {
+            width: 100%;
+        }
+        .navbar .active {
+            border-bottom: 2px solid #d4c67a;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="PixelHeart">
+        <a href="#" class="active">HOME</a>
+        <a href="#">SHOP</a>
+        <a href="#">COLLECTIBLE</a>
+        <a href="#">PUBLISHER</a>
+        <a href="#">NEWS</a>
+        <a href="#">PROMO</a>
+    </div>
+</body>
+</html>
