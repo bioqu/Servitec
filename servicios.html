@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servitec - Servicios</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #000;
+            padding: 10px 20px;
+        }
+        .navbar .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .navbar img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .navbar .logo-container span {
+            font-size: 24px; 
+            font-weight: bold; 
+            margin-left: 10px;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            position: relative;
+        }
+        .navbar a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #fefe01;
+            transition: width .3s;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .navbar a:hover::after, .navbar a.active::after {
+            width: 100%;
+        }
+        .navbar .login, .navbar .register {
+            background-color: #fefe01;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #000;
+        }
+        .navbar .register {
+            margin-left: 10px;
+        }
+        .header {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #111;
+        }
+        .header h1 {
+            color: #fefe01;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .header h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .service-column {
+            max-width: 300px;
+        }
+        .service-column h3 {
+            color: #fefe01;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .service-column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .service-column ul li {
+            margin-bottom: 10px;
+        }
+        .contact-button {
+            display: block;
+            width: fit-content;
+            margin: 30px auto;
+            background-color: #fefe01;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="logo.png" alt="Servitec">
+            <span>SERVITEC</span>
+        </div>
+        <div>
+            <a href="#" class="active">INICIO</a>
+            <a href="#">SERVICIOS</a>
+            <a href="#">PLANES</a>
+            <a href="#">TIENDA</a>
+            <a href="#">CONTACTO</a>
+            <a href="#">SOMOS</a>
+            <a href="#">BLOG</a>
+        </div>
+        <div>
+            <a href="#" class="login">INICIAR SESIÓN</a>
+            <a href="#" class="register">REGISTRO</a>
+        </div>
+    </div>
+    <div class="header">
+        <h1>SERVICIOS.</h1>
+        <h2>Servicios de soporte técnico para PC y Notebook</h2>
+    </div>
+    <div class="services">
+        <div class="service-column">
+            <h3>Servicios de Hardware</h3>
+            <ul>
+                <li>Mantención de PC de escritorio</li>
+                <li>Mantención de Notebook</li>
+                <li>Instalación de RAM</li>
+                <li>Instalación de tarjeta de video</li>
+                <li>Instalación de SSD</li>
+                <li>Armado de PC</li>
+                <li>Diagnóstico</li>
+                <li>Cambio de pantallas</li>
+            </ul>
+        </div>
+        <div class="service-column">
+            <h3>Servicios de Software</h3>
+            <ul>
+                <li>Instalación de sistema/formateo</li>
+                <li>Licencias</li>
+                <li>Instalación de programas</li>
+                <li>Capacitaciones</li>
+            </ul>
+        </div>
+        <div class="service-column">
+            <h3>Servicios de Redes</h3>
+            <ul>
+                <li>Cableado estructurado</li>
+                <li>Instalación de impresoras</li>
+                <li>Conexión de impresoras de red</li>
+                <li>Instalación de cámaras</li>
+                <li>Mantención de cámaras</li>
+            </ul>
+        </div>
+    </div>
+    <a href="#" class="contact-button">CONTACTO</a>
+</body>
+</html>
