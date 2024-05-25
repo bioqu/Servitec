@@ -79,6 +79,30 @@ body {
 }
 
 /* Estilos del contenido de la tienda */
+.left-section {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.left-section h1 {
+    font-size: 36px;
+}
+
+.left-section a {
+    color: #E5E500;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.right-section {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .categories {
     display: flex;
     justify-content: center;
