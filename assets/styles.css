@@ -79,27 +79,27 @@ body {
 }
 /* Estilos planes */
 .container {
-            width: 80%;
-            margin: auto;
-            display: flex;
-            /*justify-content: flex-end; /* Alinea todo el contenido a la derecha */
-        }
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end; /* Alinea todo el contenido a la derecha */
+    }
 
-        .content {
-            text-align: left;
-            padding: 20px;
-        }
+.content {
+    text-align: left;
+    padding: 20px;
+}
 
-        .section-title {
-            font-size: 24px;
-            font-weight: bold;
-            color: #fefe01;
-        }
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefe01;
+}
 
-        .section-desc {
-            font-size: 16px;
-            color: #999;
-        }
+.section-desc {
+    font-size: 16px;
+    color: #999;
+}
 
 /* Estilos del encabezado */
 .header {
