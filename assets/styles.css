@@ -78,19 +78,28 @@ body {
   max-width: 40%;
 }
 /* Estilos planes */
-.section {
- bmargin-bottom: 30px;
+.container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: flex-end; /* Alinea todo el contenido a la derecha */
+        }
 
-}
-.section-title {
-    font-size: 24px;
-    font-weight: bold;
-        
-}
-.section-desc {
-    font-size: 16px;
-    color: #999;
-}
+        .content {
+            text-align: left;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00ff00;
+        }
+
+        .section-desc {
+            font-size: 16px;
+            color: #999;
+        }
 
 /* Estilos del encabezado */
 .header {
