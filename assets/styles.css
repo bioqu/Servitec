@@ -1,4 +1,4 @@
-/* General styles */
+/* Estilos generales */
 body {
     position: relative;
     min-height: 100vh;
@@ -9,6 +9,7 @@ body {
     color: #fff; /* Texto blanco */
 }
 
+/* Estilos de la barra de navegación */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -44,6 +45,7 @@ body {
     text-decoration: underline;
 }
 
+/* Estilos del encabezado */
 .header {
     text-align: center;
     padding: 50px;
@@ -60,6 +62,7 @@ body {
     margin-bottom: 50px;
 }
 
+/* Estilos de la tabla de precios */
 .pricing-table {
     display: flex;
     justify-content: space-around;
@@ -113,7 +116,7 @@ body {
     background-color: #ffc107; /* Color amarillo más oscuro al pasar el mouse */
 }
 
-/* Media Queries for Responsive Design */
+/* Media Queries para diseño responsivo */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
