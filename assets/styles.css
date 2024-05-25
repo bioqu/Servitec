@@ -1,3 +1,4 @@
+/* General styles */
 body {
     position: relative;
     min-height: 100vh;
@@ -110,4 +111,58 @@ body {
 
 .select-plan:hover {
     background-color: #ffc107; /* Color amarillo más oscuro al pasar el mouse */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    .pricing-table {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px 20px;
+    }
+
+    .pricing-plan {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .logo-container span {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .header p {
+        font-size: 0.9em;
+    }
+
+    .pricing-plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .logo-container span {
+        font-size: 1.2em;
+    }
 }
