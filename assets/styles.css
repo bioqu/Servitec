@@ -88,6 +88,9 @@ body {
 .left-section {
             text-align: left; /* Alinea el contenido de esta sección a la izquierda */
         }
+.section {
+            margin-bottom: 20px; /* Agregamos un espacio entre secciones */
+        }
 
 .content {
     text-align: left;
