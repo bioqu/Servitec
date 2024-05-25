@@ -79,16 +79,18 @@ body {
 }
 /* Estilos planes */
 .section {
-            margin-bottom: 30px;
-        }
-        .section-title {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .section-desc {
-            font-size: 16px;
-            color: #999;
-        }
+ bmargin-bottom: 30px;
+
+}
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+        
+}
+.section-desc {
+    font-size: 16px;
+    color: #999;
+}
 
 /* Estilos del encabezado */
 .header {
