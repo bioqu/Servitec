@@ -45,33 +45,45 @@ body {
     text-decoration: underline;
 }
 /* Estilos de index */
+/* Main content area styles */
 .main-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 50px 100px;
-        }
-        .main-content .text {
-            max-width: 50%;
-        }
-        .main-content h1 {
-            color: #fefe01;
-            margin-bottom: 20px;
-        }
-        .main-content p {
-            margin-bottom: 20px;
-        }
-        .main-content .btn {
-            background-color: #fefe01;
-            color: #000;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .main-content img {
-            max-width: 40%;
-        }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+/* Text element styles within .main-content */
+.main-content .text {
+  max-width: 50%;
+}
+
+/* H1 element styles within .main-content */
+.main-content h1 {
+  color: #fefe01;
+  margin-bottom: 20px;
+}
+
+/* Paragraph element styles within .main-content */
+.main-content p {
+  margin-bottom: 20px;
+}
+
+/* Button element styles within .main-content */
+.main-content .btn {
+  background-color: #fefe01;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Image element styles within .main-content */
+.main-content img {
+  max-width: 40%;
+}
+
 
 /* Estilos del encabezado */
 .header {
