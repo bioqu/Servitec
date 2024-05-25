@@ -45,7 +45,6 @@ body {
     text-decoration: underline;
 }
 /* Estilos de index */
-/* Main content area styles */
 .main-content {
   display: flex;
   justify-content: space-between;
@@ -53,23 +52,19 @@ body {
   padding: 50px 100px;
 }
 
-/* Text element styles within .main-content */
 .main-content .text {
   max-width: 50%;
 }
 
-/* H1 element styles within .main-content */
 .main-content h1 {
   color: #fefe01;
   margin-bottom: 20px;
 }
 
-/* Paragraph element styles within .main-content */
 .main-content p {
   margin-bottom: 20px;
 }
 
-/* Button element styles within .main-content */
 .main-content .btn {
   background-color: #fefe01;
   color: #000;
@@ -79,11 +74,21 @@ body {
   font-weight: bold;
 }
 
-/* Image element styles within .main-content */
 .main-content img {
   max-width: 40%;
 }
-
+/* Estilos planes */
+.section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .section-desc {
+            font-size: 16px;
+            color: #999;
+        }
 
 /* Estilos del encabezado */
 .header {
