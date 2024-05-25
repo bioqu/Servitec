@@ -62,6 +62,48 @@ body {
     margin-bottom: 50px;
 }
 
+/* Estilos de los servicios */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-column {
+    max-width: 300px;
+}
+
+.service-column h3 {
+    color: #fefe01;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-column ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos del botón de contacto */
+.contact-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    background-color: #fefe01;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px; 
+    left: 1290px; /* Este valor puede necesitar ajustarse */
+}
+
 /* Estilos de la tabla de precios */
 .pricing-table {
     display: flex;
