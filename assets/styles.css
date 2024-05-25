@@ -85,6 +85,10 @@ body {
     justify-content: flex-end; /* Alinea todo el contenido a la derecha */
     }
 
+.left-section {
+            text-align: left; /* Alinea el contenido de esta sección a la izquierda */
+        }
+
 .content {
     text-align: left;
     padding: 20px;
@@ -98,7 +102,7 @@ body {
 
 .section-desc {
     font-size: 16px;
-    color: #999;
+    color: #ffffff;
 }
 
 /* Estilos del encabezado */
