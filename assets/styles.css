@@ -1,0 +1,113 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-container span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff0; /* Color amarillo */
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    color: #ff0; /* Color amarillo */
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff0; /* Color amarillo */
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px 50px;
+}
+
+.pricing-plan {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.pricing-plan h2 {
+    font-size: 2em;
+    color: #ff0; /* Color amarillo */
+    margin-bottom: 10px;
+}
+
+.pricing-plan .price {
+    font-size: 2.5em;
+    color: #ff0; /* Color amarillo */
+    margin-bottom: 20px;
+}
+
+.pricing-plan ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.pricing-plan ul li {
+    margin-bottom: 10px;
+}
+
+.select-plan {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0; /* Color amarillo */
+    color: #000; /* Texto negro */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.select-plan:hover {
+    background-color: #ffc107; /* Color amarillo más oscuro al pasar el mouse */
+}
