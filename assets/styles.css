@@ -79,35 +79,37 @@ body {
 }
 
 /* Estilos del contenido de la tienda */
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-        .container {
-            width: 80%;
-            margin: auto;
-            display: flex;
-        }
+.category {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #E5E500;
+    border-radius: 10px;
+    width: 200px;
+    background-color: black;
+    text-align: left;
+}
 
-        .left-content {
-            flex: 1;
-            text-align: left;
-            padding: 20px;
-        }
+.category img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 50px;
+    height: 50px;
+}
 
-        .right-content {
-            flex: 1;
-            text-align: left;
-            padding: 20px;
-        }
+.category h2 {
+    font-size: 18px;
+}
 
-        .section-title {
-            font-size: 24px;
-            font-weight: bold;
-            color: #00ff00;
-        }
-
-        .section-desc {
-            font-size: 16px;
-            color: #999;
-        }
+.category p {
+    font-size: 14px;
+    color: white;
+}
 
 /* Estilos del encabezado */
 .header {
