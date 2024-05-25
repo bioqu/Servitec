@@ -82,7 +82,7 @@ body {
             width: 80%;
             margin: auto;
             display: flex;
-            justify-content: flex-end; /* Alinea todo el contenido a la derecha */
+            /*justify-content: flex-end; /* Alinea todo el contenido a la derecha */
         }
 
         .content {
@@ -93,7 +93,7 @@ body {
         .section-title {
             font-size: 24px;
             font-weight: bold;
-            color: #00ff00;
+            color: #fefe01;
         }
 
         .section-desc {
