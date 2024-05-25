@@ -4,39 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SERVITEC Tienda</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: #fff;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-        }
-        .logo {
-            text-align: left;
-            margin-top: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .section-title {
-            font-size: 24px;
-            font-weight: bold;
-            color: #00ff00;
-        }
-        .section-desc {
-            font-size: 16px;
-            color: #999;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="logo.png" alt="SERVITEC Logo">
+     <div class="navbar">
+        <div class="logo-container">
+            <img src="logo.png" alt="Servitec">
+            <span>SERVITEC</span>
         </div>
+        <div>
+            <a href="index.html" class="active">INICIO</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="planes.html">PLANES</a>
+            <a href="tienda.html">TIENDA</a>
+            <a href="#">CONTACTO</a>
+            <a href="#">SOMOS</a>
+            <a href="#">BLOG</a>
+        </div>
+        <div>
+            <a href="#" class="login">INICIAR SESIÓN</a>
+            <a href="#" class="register">REGISTRO</a>
+        </div>
+    </div>
         <div class="section">
             <div class="section-title">GAMER</div>
             <p class="section-desc">Equipamiento y accesorios top para gamers serios.</p>
