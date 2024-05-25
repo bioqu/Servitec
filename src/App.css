@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input {
+  height: 40px;
+  border: 1px solid gray;
+  margin-bottom: 16px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.statusContainer {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid gray;
+}
+
+.error {
+  color: red;
+  margin-top: 16px;
+}
