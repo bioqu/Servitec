@@ -121,7 +121,7 @@ body {
 
 .category img {
     display: block;
-    margin: 0 auto 10px auto;
+    margin: 1em auto 10px auto;
     width: 50px;
     height: 50px;
     float: left;
